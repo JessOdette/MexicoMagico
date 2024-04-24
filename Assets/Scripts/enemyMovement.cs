@@ -2,14 +2,13 @@ using UnityEngine;
 
 public class enemyMovement : MonoBehaviour
 {
-    public float speed = 4f;          // Velocidad de movimiento del enemigo
-    public float distance = 8.0f;      // Distancia máxima de desplazamiento a cada lado
+    public float speed = 4f;          
+    public float distance = 8.0f;      
 
-    private Vector3 startingPosition;   // Posición inicial del enemigo
+    private Vector3 startingPosition;   
 
     void Start()
     {
-        // Guardar la posición inicial para usarla como base del movimiento
         startingPosition = transform.position;
     }
 

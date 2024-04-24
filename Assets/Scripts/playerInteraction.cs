@@ -1,22 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Necesario para trabajar con UI
+using UnityEngine.UI; 
 using UnityEngine.SceneManagement;
-using TMPro; // Necesario para manejar escenas
+using TMPro; 
 
 public class PlayerController : MonoBehaviour
 {
     public int health = 10;
     public int maxHealth = 10;
-    public Image healthBarForeground; // Referencia al componente Image del indicador de salud
-    public TextMeshProUGUI gameOverText; // Referencia al texto de Game Over
+    public Image healthBarForeground; 
+    public TextMeshProUGUI gameOverText; 
 
     void Start ()
     {
         health = maxHealth;
         UpdateHealthBar();
-        gameOverText.gameObject.SetActive(false); // Asegúrate de que el texto de Game Over está oculto al inicio
+        gameOverText.gameObject.SetActive(false); 
     }
 
     public void TakeDamage(int amount)
@@ -24,12 +24,12 @@ public class PlayerController : MonoBehaviour
         health -= amount;
         if (health <= 0)
         {
-            gameOverText.gameObject.SetActive(true); // Activa el texto de Game Over
-            StartCoroutine(RestartLevel()); // Inicia la rutina para reiniciar el nivel
+            gameOverText.gameObject.SetActive(true); 
+            StartCoroutine(RestartLevel()); 
         }
         else
         {
-            UpdateHealthBar(); // Actualiza la barra de salud cada vez que el jugador recibe daño
+            UpdateHealthBar(); 
         }
     }
 
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator RestartLevel()
     {
-        yield return new WaitForSeconds(2); // Espera dos segundos antes de reiniciar el nivel
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Carga de nuevo la escena actual
+        yield return new WaitForSeconds(2); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
     }
 }
