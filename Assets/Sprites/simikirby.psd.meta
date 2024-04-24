@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: 43480733b523e9b4b8cd076c5e6ca10f
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 975f4e7f8b5b01a41bb921ea6564e30a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Capa de pintura 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 391
+      width: 146
+      height: 273
+    spriteID: ea89ff0d747f30a48a1a34708e07b502
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 391}
+    spritePosition: {x: 408, y: 162}
+  - name: Capa de pintura 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 391
+      width: 146
+      height: 273
+    spriteID: f7a6723c28e238a469a186d14722368e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 391}
+    spritePosition: {x: 103, y: 157}
+  - name: Fondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 4
+      width: 248
+      height: 166
+    spriteID: 8eef8fb74041c2f4b8988d1e88db0bab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 513, y: 4}
+    spritePosition: {x: 206, y: 154}
+  - name: mustache
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 389
+      y: 391
+      width: 174
+      height: 54
+    spriteID: 15e75d87c399d214d9faf7515b8cee0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 389, y: 391}
+    spritePosition: {x: 236, y: 329}
+  - name: sonrisa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 631
+      width: 34
+      height: 10
+    spriteID: 69ede59388ddc2d4eb00cc05e348f380
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 631}
+    spritePosition: {x: 307, y: 338}
+  - name: Capa de pintura 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 526
+      y: 544
+      width: 44
+      height: 66
+    spriteID: 12411d38d5a6b0d499691c6dcaf9c36a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 526, y: 544}
+    spritePosition: {x: 347, y: 364}
+  - name: Copia de Capa de pintura 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 571
+      y: 391
+      width: 114
+      height: 49
+    spriteID: ee146b6afd2947d4395c3c0a3cab356b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 571, y: 391}
+    spritePosition: {x: 266, y: 422}
+  - name: Capa de pintura 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 526
+      y: 618
+      width: 27
+      height: 46
+    spriteID: d4587ffc4b1d4014db442c228191d7af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 526, y: 618}
+    spritePosition: {x: 266, y: 422}
+  - name: Capa de pintura 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 544
+      width: 45
+      height: 79
+    spriteID: 4cbdeb4579d33c541a2354366c5db511
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 544}
+    spritePosition: {x: 348, y: 395}
+  - name: Capa de pintura 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 312
+      y: 544
+      width: 46
+      height: 113
+    spriteID: c6e60fd6abb17ac4b86dbe33ef2017d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 312, y: 544}
+    spritePosition: {x: 347, y: 363}
+  - name: Capa de pintura 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 578
+      y: 544
+      width: 44
+      height: 66
+    spriteID: 84edb7783b804cc45a1306eb18e5f7e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 578, y: 544}
+    spritePosition: {x: 259, y: 364}
+  - name: Copia de Capa de pintura 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 693
+      y: 391
+      width: 27
+      height: 46
+    spriteID: 8d1c2467c30b541419c8f504d45a4d39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 693, y: 391}
+    spritePosition: {x: 266, y: 422}
+  - name: Capa de pintura 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 544
+      width: 45
+      height: 79
+    spriteID: 106a97d4b7149d047ae5f26e23a1b0d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 544}
+    spritePosition: {x: 258, y: 395}
+  - name: Capa de pintura 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 728
+      y: 391
+      width: 27
+      height: 46
+    spriteID: 7854dadc363864a44af15d2405b30016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 728, y: 391}
+    spritePosition: {x: 266, y: 422}
+  - name: Capa de pintura 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 544
+      width: 46
+      height: 113
+    spriteID: 47230e3159e3f1b4eb283fce4adb46f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 366, y: 544}
+    spritePosition: {x: 257, y: 363}
+  - name: brazo 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 943
+      y: 4
+      width: 74
+      height: 141
+    spriteID: 60ee26bcfc5ddfc45ad6483556f34147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 943, y: 4}
+    spritePosition: {x: 505, y: 275}
+  - name: brazo 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 312
+      y: 391
+      width: 69
+      height: 145
+    spriteID: 70d72b5f6a51517438ca87203fd14c66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 312, y: 391}
+    spritePosition: {x: 75, y: 276}
+  - name: brazo 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 769
+      y: 4
+      width: 80
+      height: 142
+    spriteID: 4494e674be672104faa5ea0e34633042
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 769, y: 4}
+    spritePosition: {x: 497, y: 276}
+  - name: brazo 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 857
+      y: 4
+      width: 78
+      height: 145
+    spriteID: f08e00d71b5b2924f8b957baa6d71863
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 857, y: 4}
+    spritePosition: {x: 76, y: 276}
+  - name: cuerpo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 501
+      height: 379
+    spriteID: 51f408bb2e6261e4e836abd48a9ffba8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 76, y: 165}
+  - name: Copia de Capa de pintura 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 178
+      width: 235
+      height: 174
+    spriteID: 676fca3e0be480a4582aaf7be48e438a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 513, y: 178}
+    spritePosition: {x: 312, y: 107}
+  - name: Capa de pintura 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 178
+      width: 240
+      height: 167
+    spriteID: 0311f6f6cd1b4ad47aa8de5c1090b7b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 178}
+    spritePosition: {x: 94, y: 106}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Capa de pintura 9
+    spriteName: Capa de pintura 9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ea89ff0d747f30a48a1a34708e07b502
+    layerID: 0
+    mosaicPosition: {x: 4, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 9
+    spriteName: Capa de pintura 9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f7a6723c28e238a469a186d14722368e
+    layerID: -1426428346
+    mosaicPosition: {x: 158, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fondo
+    spriteName: Fondo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8eef8fb74041c2f4b8988d1e88db0bab
+    layerID: 709232680
+    mosaicPosition: {x: 513, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: mustache
+    spriteName: mustache
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 15e75d87c399d214d9faf7515b8cee0f
+    layerID: -1632485060
+    mosaicPosition: {x: 389, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sonrisa
+    spriteName: sonrisa
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 69ede59388ddc2d4eb00cc05e348f380
+    layerID: 413832039
+    mosaicPosition: {x: 420, y: 631}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Copia de ojo 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 07479a074b9e42343ac7fc36bbff8099
+    layerID: -195980372
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa de pintura 6
+    spriteName: Capa de pintura 6
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 12411d38d5a6b0d499691c6dcaf9c36a
+    layerID: -1426428331
+    mosaicPosition: {x: 526, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Copia de Capa de pintura 4
+    spriteName: Copia de Capa de pintura 4
+    isGroup: 0
+    parentIndex: 5
+    spriteID: ee146b6afd2947d4395c3c0a3cab356b
+    layerID: -355209666
+    mosaicPosition: {x: 571, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 4
+    spriteName: Capa de pintura 4
+    isGroup: 0
+    parentIndex: 5
+    spriteID: d4587ffc4b1d4014db442c228191d7af
+    layerID: -1426428333
+    mosaicPosition: {x: 526, y: 618}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 5
+    spriteName: Capa de pintura 5
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 4cbdeb4579d33c541a2354366c5db511
+    layerID: -1426428334
+    mosaicPosition: {x: 420, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 3
+    spriteName: Capa de pintura 3
+    isGroup: 0
+    parentIndex: 5
+    spriteID: c6e60fd6abb17ac4b86dbe33ef2017d9
+    layerID: -1426428336
+    mosaicPosition: {x: 312, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ojo 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ddac0195d4d935a40b7b2587a9b3d9f9
+    layerID: 1072604511
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa de pintura 6
+    spriteName: Capa de pintura 6
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 84edb7783b804cc45a1306eb18e5f7e5
+    layerID: -1843917365
+    mosaicPosition: {x: 578, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Copia de Capa de pintura 4
+    spriteName: Copia de Capa de pintura 4
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 8d1c2467c30b541419c8f504d45a4d39
+    layerID: 121143038
+    mosaicPosition: {x: 693, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 5
+    spriteName: Capa de pintura 5
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 106a97d4b7149d047ae5f26e23a1b0d1
+    layerID: -1843917458
+    mosaicPosition: {x: 473, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 4
+    spriteName: Capa de pintura 4
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 7854dadc363864a44af15d2405b30016
+    layerID: -1843917299
+    mosaicPosition: {x: 728, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 3
+    spriteName: Capa de pintura 3
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 47230e3159e3f1b4eb283fce4adb46f3
+    layerID: -1843917392
+    mosaicPosition: {x: 366, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Agrupar 8
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 360f33ad9458d634eba939e671160ff9
+    layerID: -1258251398
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Agrupar 8
+    spriteName: 
+    isGroup: 1
+    parentIndex: 17
+    spriteID: 4bf86f2bd6055104dbe865d0ff8f3f15
+    layerID: 835875702
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: brazo 2
+    spriteName: brazo 2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 60ee26bcfc5ddfc45ad6483556f34147
+    layerID: 2056528924
+    mosaicPosition: {x: 943, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo 1
+    spriteName: brazo 1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 70d72b5f6a51517438ca87203fd14c66
+    layerID: 2056528921
+    mosaicPosition: {x: 312, y: 391}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: exterior
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 9cb20192fe3b23f49b7d50a8c5f6154b
+    layerID: -334864584
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: brazo 2
+    spriteName: brazo 2
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 4494e674be672104faa5ea0e34633042
+    layerID: -1707645424
+    mosaicPosition: {x: 769, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo 1
+    spriteName: brazo 1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: f08e00d71b5b2924f8b957baa6d71863
+    layerID: -1707645517
+    mosaicPosition: {x: 857, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo
+    spriteName: cuerpo
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 51f408bb2e6261e4e836abd48a9ffba8
+    layerID: -44005548
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Copia de Capa de pintura 7
+    spriteName: Copia de Capa de pintura 7
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 676fca3e0be480a4582aaf7be48e438a
+    layerID: -1921293607
+    mosaicPosition: {x: 513, y: 178}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 7
+    spriteName: Capa de pintura 7
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0311f6f6cd1b4ad47aa8de5c1090b7b9
+    layerID: -1426428332
+    mosaicPosition: {x: 756, y: 178}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fondo
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f0adbcfc21ae1f74a95c435fcd1ea834
+    layerID: 1358543704
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Fondo
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 367bbdc75f2e6d74482ac7613c536ca7
+    layerID: 955259177
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
