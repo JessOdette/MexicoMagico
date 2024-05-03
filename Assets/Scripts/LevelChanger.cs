@@ -19,7 +19,7 @@ public class LevelChanger : MonoBehaviour
 
     IEnumerator DisplayMessageAndLoadLevel()
     {
-        messageText.text = "Mariachi Recovered!";
+        messageText.text = "Object Recovered!";
         messageText.gameObject.SetActive(true); 
 
         yield return new WaitForSeconds(delayBeforeLoading); 

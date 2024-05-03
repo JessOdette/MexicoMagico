@@ -33,11 +33,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void RestoreHealth(int amount)
+{
+    health += amount;
+    if (health > maxHealth)
+    {
+        health = maxHealth; // Asegura que la salud no exceda la salud máxima
+    }
+    UpdateHealthBar();
+}
+
+
     void UpdateHealthBar()
     {
         float healthRatio = (float)health / maxHealth;
         healthBarForeground.fillAmount = healthRatio;
     }
+
+    
 
     IEnumerator RestartLevel()
     {

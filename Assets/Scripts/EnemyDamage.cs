@@ -5,24 +5,36 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public PlayerController playerInteraction;
+    public AudioSource audioPlayer;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+          if (audioPlayer == null)
+     {
+        Debug.LogError("Destroy sound not assigned in the Inspector.");
+     }  
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) {
-        
-        if(collision.gameObject.tag == "Player"){
-
-            playerInteraction.TakeDamage(1);
+    private void OnCollisionEnter2D(Collision2D collision) 
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            if (collision.contacts[0].normal.y < -0.5) 
+            {
+                audioPlayer.Play(); 
+                Destroy(gameObject); 
+            }
+            else
+            {
+                playerInteraction.TakeDamage(1); 
+            }
         }
     }
 }
+
+

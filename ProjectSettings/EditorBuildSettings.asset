@@ -12,9 +12,21 @@ EditorBuildSettings:
     path: Assets/Levels/Main Menu.unity
     guid: 085aaa23723f8c8439c1f403d7a4aec7
   - enabled: 1
+    path: Assets/Levels/Intro.unity
+    guid: 19505ec8f524b074fab67bbfffd46c53
+  - enabled: 0
+    path: Assets/Levels/Instructions.unity
+    guid: 466883bcad9dd7f4b9d5ef4e4cbcb3d8
+  - enabled: 1
     path: Assets/Levels/Level1.unity
-    guid: c200afe494a31ee47a81b92cc550091e
+    guid: de0eef172b77d434c98fdd708c98f79b
   - enabled: 1
     path: Assets/Levels/Level2.unity
     guid: 3a2426d3bfbfa8041a442e3d9281df56
+  - enabled: 1
+    path: Assets/Levels/Level3.unity
+    guid: c200afe494a31ee47a81b92cc550091e
+  - enabled: 1
+    path: Assets/Levels/Credits.unity
+    guid: 999019f3b1ce35a45a6eaa3b9ebab3c9
   m_configObjects: {}

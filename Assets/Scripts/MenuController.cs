@@ -9,7 +9,14 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
-    // Function to be called when the 'Quit Game' button is clicked
+        public void StartIntro()
+    {
+        SceneManager.LoadScene("Intro");
+    }
+
+    public void LoadMenu(){
+        SceneManager.LoadScene("Main Menu");
+    }
     public void QuitGame()
     {
         Application.Quit();
